@@ -1,0 +1,87 @@
+/* d3 tree diagram */
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.node text {
+    font: 18px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+/*main*/
+
+body {
+    font-family: sans-serif;
+    background: rgb(252, 118, 106);
+    background: linear-gradient(
+        -20deg,
+        rgba(252, 118, 106, 0.35) 30%,
+        rgba(250, 112, 154, 0.35) 70%
+    );
+}
+
+nav {
+    background: rgb(252, 118, 106);
+    background: linear-gradient(
+        160deg,
+        rgba(252, 118, 106, 1) 30%,
+        rgba(250, 112, 154, 1) 70%
+    );
+}
+
+footer {
+    background: rgb(252, 118, 106);
+    background: linear-gradient(
+        -20deg,
+        rgba(252, 118, 106, 1) 30%,
+        rgba(250, 112, 154, 1) 70%
+    );
+}
+
+pre {
+    overflow: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#cdn-card-content {
+    padding-bottom: 0px;
+}
+
+#put-the-cdnjs {
+    margin-top: 42px;
+}
+
+#main-card {
+    color: #fc766a;
+}
+
+#main-tree-diagram {
+    overflow: auto;
+}
+
+#feedback-link {
+    font-size: 1.5em;
+}
+
+.preloader-wrapper {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.modal-content-img {
+    width: 100%;
+}

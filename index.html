@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Click Salmon</title>
+        <meta charset="UTF-8" />
+        <!-- Compiled and minified CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        />
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-firestore.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+    </head>
+
+    <body>
+        <div id="app"></div>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h3>Get start for tracking click on your web</h3>
+                <h5>Step. 1</h5>
+                <p>Let’s take a look this is Click Salmon beta website.
+                    Its special point is generating the tracking route. Everyone could easily see which button or route is most people explored. It can help you improve UI/UX of website. Even find something unexpected route from users.
+                    </p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-w2wyFlZsN5E/XROG_B_R2JI/AAAAAAAAnrE/-f8XhjgdA8gzVK4_cMv2Pogs4rS-qUlpgCLcBGAs/s1600/img1.PNG">
+                </br>
+                <h5>Step. 2</h5>
+                <p>Ok, let’s refresh the page. Set your ID. (Every user can set any ID in beta version. So if you find something in tree diagram after setting ID, please change an ID. Thank you! We’ll improve it.)</p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-Iv_2Y1XpiD4/XROG_FqqldI/AAAAAAAAnrA/MGJA_TVE6EULc6ejW1-C9FJxcA5n5LmrACLcBGAs/s1600/img2.PNG">
+                </br>
+                <h5>Step. 3</h5>
+                <p>Next, you can see your ID at the top-right corner.
+                    And the field of tree diagram should be empty.
+                    Oh, there’s only one dot.
+                    </p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-q9IUDEfXlI4/XROHAClQqiI/AAAAAAAAnrk/lTkqUwOTM3YCaglaqZSSByb_G0LryCjHgCLcBGAs/s1600/img3.PNG">
+                </br>
+                <h5>Step. 4</h5>
+                <p>Click the copy, copying the 3 lines cdn code.</p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-42pQkDgi6zg/XROHAeC_jMI/AAAAAAAAnrM/6E5MfR4fx1UBZrVjQews3STHN0DNqHE3ACLcBGAs/s1600/img4.PNG">
+                </br>
+                <h5>Step. 5</h5>
+                <p>Open an example web.</p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-7nf7_mr8tHk/XROHBGJTzwI/AAAAAAAAnrQ/CIzZhjj4gvQFzdCugaHG5M-DguJlx9OvgCLcBGAs/s1600/img5.PNG">
+                </br>
+                <h5>Step. 6</h5>
+                <p>Use any editor, open all the html files you want to track.
+                    Paste above &lt;/body&gt; (line404)
+                    </p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-V8eVSEdLE30/XROHBXXd7nI/AAAAAAAAnrU/P462SXjp4P8AefoleFUp1xi1xIqmdQl7gCLcBGAs/s1600/img6.PNG">
+                </br>
+                <h5>Step. 7</h5>
+                <p>Ok, you’re done. That’s simple, right?
+                    Go back your example website, refresh and open the chrome developer console. You’ll see this line “Document written with ID : **********”.
+                    Then, click any button multiple times.
+                    </p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-czRHe-FiYQQ/XROHCEVxaaI/AAAAAAAAnrY/LxMa9JSqpSE0M4if3e5hvLS6w647oCUZwCLcBGAs/s1600/img7.PNG">
+                </br>
+                <h5>Step. 8</h5>
+                <p>Open “Click Salmon” again. There’s a line there.</p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-WsWs9VEkHCw/XROHCVTIjtI/AAAAAAAAnrc/sFjCK5kcNKEj1sK1VNNaRlBWtMERAtMigCLcBGAs/s1600/img8.PNG">
+                </br>
+                <h5>Step. 9</h5>
+                <p>Ok. We’re done. Let’s click more. Open the web on the <strong style="color:red;">new tab</strong>. (Because if you keep clicking on the same tab, it will still track on the same line)</p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-9iFaXWTr1Bk/XROHDKSOqII/AAAAAAAAnrg/nF1dPT7hja4Z-I_5EAIsgWoEDm2vDtEmwCLcBGAs/s1600/img9.PNG">
+                </br>
+                <h5>Step. 10</h5>
+                <p>Finally, you will see a complete tree diagram.</p>
+                <img class="modal-content-img" src="https://1.bp.blogspot.com/-ymHnqaIUTIE/XROG_XXQRfI/AAAAAAAAnrI/0cJYobO9b4UNwdJVgbMaQeBgPO39Y0AKQCLcBGAs/s1600/img10.PNG">
+                </br>
+            </div>
+            <div class="modal-footer">
+                <a
+                    href="#!"
+                    class="modal-close waves-effect waves-green btn-flat"
+                    >Close</a
+                >
+            </div>
+        </div>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script>
+            //For Modal
+            document.addEventListener("DOMContentLoaded", function() {
+                var elems = document.querySelectorAll(".modal");
+                var instances = M.Modal.init(elems);
+            });
+        </script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="src/index.js"></script>
+    </body>
+</html>
